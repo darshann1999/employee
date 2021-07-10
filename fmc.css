@@ -1,0 +1,88 @@
+body
+{
+	background-color: blue;
+	background:radial-gradient(grey,lime,blue);
+	background-size: cover;
+}
+button
+{
+	margin-right: 50px;
+	margin-top: 30px;
+	background:linear-gradient(45deg,violet,purple,grey);
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px black;
+}
+
+div
+{
+	margin:40px;
+}
+
+input[type="text"]
+{
+	padding: 20px 20px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: 0 0 10px black;
+}
+
+#count
+{
+	color: purple;
+	text-shadow: 0 0 30px blue;
+}
+table
+{
+	border-collapse: collapse;
+	border-width: 10px;
+	border-color: white;
+	border-style: solid;
+}
+
+th
+{
+	padding:10px 20px;
+	font-size: 20px;
+	background:linear-gradient(45deg,blue,grey);
+	color: white;
+	padding: 10px 30px;
+
+
+}
+
+
+tr:nth-child(even)
+{
+	padding:10px 20px;
+	font-size: 20px;
+	background:linear-gradient(45deg,crimson,orange);
+	color: white;
+}
+tr
+{
+	padding:10px 20px;
+	font-size: 20px;
+	background:linear-gradient(45deg,violet,magenta);
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+
+table tbody tr:hover
+{
+	background:linear-gradient(45deg,black,grey);
+}
+
+td
+{
+	text-align: center;
+	padding: 10px 30px;
+	text-shadow: 0 0 10px black;
+}
+}
+

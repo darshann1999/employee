@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee list</title>
+	<link rel="stylesheet" href="fmc.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="class\css\bootstrap.css">
+	<link rel="stylesheet" href="class\css\mdb.css">
+</head>
+<body>
+	<div align="center">
+		<button id="all-emp-btn">All employees</button>
+		<button id="male-emp-btn">Male employees</button>
+		<button id="female-emp-btn">Female Employees</button>
+	</div>
+
+	<div align="center">
+		<input type="text" placeholder="Employee Name" id="emp-search">
+	</div>
+
+	<div align="center">
+		<h1>The Records Found:<span id="count"></span></h1>
+	</div>
+	
+	<table align="center" border="2px;" >
+		
+		<thead>
+		<tr>		
+			<th>SNO</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Email</th>
+			<th>Gender</th>
+			<th>Country</th>
+		</tr>
+		</thead>
+
+		<tbody  id="table-body">
+		</tbody>	
+	</table>
+	
+<script src="emp_data.js"></script>
+<script src="emp.js"></script>
+</body>
+</html>
